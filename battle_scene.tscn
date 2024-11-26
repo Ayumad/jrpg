@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bh10w4aa6fdhv"]
 
-[ext_resource type="Texture2D" uid="uid://1sqhv0wglfca" path="res://BG_FF2_09.png" id="1_kdkxg"]
+[ext_resource type="Texture2D" uid="uid://bcpcacde0qldq" path="res://bkg_cyberpunk.png" id="1_hou5s"]
 [ext_resource type="PackedScene" uid="uid://c8pmhm5r4y55x" path="res://enemy_group.tscn" id="1_sqmju"]
 [ext_resource type="PackedScene" uid="uid://cso16ptxsys7n" path="res://player_group.tscn" id="3_r3x7u"]
 
@@ -14,8 +14,9 @@ offset_top = -9.0
 offset_right = 304.0
 offset_bottom = 171.0
 scale = Vector2(1.1, 1.1)
-texture = ExtResource("1_kdkxg")
-expand_mode = 1
+texture = ExtResource("1_hou5s")
+expand_mode = 4
+stretch_mode = 4
 
 [node name="EnemyGroup" parent="." instance=ExtResource("1_sqmju")]
 position = Vector2(55, 47)
